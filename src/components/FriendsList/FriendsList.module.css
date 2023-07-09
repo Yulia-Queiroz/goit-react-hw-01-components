@@ -1,0 +1,43 @@
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: #32a852;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  margin-left: 15px;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.friend-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-top: 60px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
