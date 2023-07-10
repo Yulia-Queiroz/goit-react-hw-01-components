@@ -4,7 +4,7 @@ import css from './Transactions.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table className={css['transaction-history']}>
+    <table className={`${css['transaction-history']}`}>
       <thead>
         <tr>
           <th>Type</th>
